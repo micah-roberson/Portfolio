@@ -1,0 +1,3 @@
+[submodule "themes/hugo-profile"]
+	path = themes/hugo-profile
+	url = C:/Program Files/Git/path/to/existing/themes/hugo-profile

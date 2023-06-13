@@ -1,0 +1,237 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Micah Website"
+theme = "hugo-profile"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+
+
+
+[params]
+    title = "Roberson Labs"
+    description = "Text about my cool site"
+    favicon = "/images/0_3.png"
+    useBootstrapCDN = false
+
+
+
+[params.navbar]
+    align = "ms-auto"
+    brandName = "Roberson Labs"
+    disableSearch = false
+
+[params.hero]
+    enable = true
+    intro = "Hi, my name is"
+    title = "Micah."
+    subtitle = "I build things to help people"
+    content = "A passionate entreprenuer trying solve problems. I tend to dip my foot in every kind of tech and science as diversity of thought is a foundation of innovaiton."
+    image = "/images/micahroberson.png"
+
+[params.hero.bottomImage]
+    enable = true
+
+[params.hero.button]
+    enable = true
+    name = "Resume"
+    url = "https://docs.google.com/document/d/1HMj7zfLlYCkiDH93Gu52lfIWUSoQ8Gs2YR9HSr9vhKc/edit?usp=sharing"
+    download = true
+    newPage = false
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+    icon = "fab fa-github"
+    url = "https://github.com/micah-roberson"
+
+
+[[params.hero.socialLinks.customIcons]]
+    icon = "/images/LIN.png"
+    url = "https://www.linkedin.com/in/micah-roberson/"
+
+[params.about]
+    enable = true
+    title = "About Me"
+    image = "images/blueassortment.png"
+    content = """
+  Micah Roberson is an enterprising individual with an unwavering passion for innovation, constantly seeking opportunities to solve problems to make the world a better place. \n With a remarkable journey that spans over seven years, Micah has been fearlessly starting and learning from entrepreneurial ventures since the age of 13. 
+Drawing from his background in Quantum/Physics and Finance & Corporate Innovation from Indiana University, Micah's expertise extends beyond traditional boundaries, encompassing cutting-edge technology and business acumen. \n
+#QuantumComputing #Startups #ProductManagement #TeamLeadership #Finance #Entrepreneurship
+    """
+
+[params.about.skills]
+    enable = true
+    title = "Here are a few technologies I've been working with recently:"
+    items = ["HTML", "CSS", "Python", "React", "Node", "Unreal"]
+
+[params.experience]
+    enable = true
+
+[[params.experience.items]]
+    job = "Physics Research"
+    company = "Indiana University"
+    companyUrl = "https://www.indiana.edu/"
+    date = "May 2023 - present"
+     content = "Working in IUs Quantum Entangelment Lab for the purpose of using entangled gammas from positron annihilation."
+
+    [params.experience.items.featuredLink]
+        enable = true
+        name = "View the project"
+        url = "https://example.com"
+
+   
+[[params.experience.items]]
+    job = "Co-Founder"
+    company = "CleverCart"
+    companyUrl = "https://clevercart.app"
+    date = "August 2022 - Present"
+    content = """• Founded an optimized grocery planning app that makes a grocery list, and finds best prices, stores, & delivery  
+    • Preformed fundraising, hiring, vision development, B2C marketing, and development"""
+
+    [params.experience.items.featuredLink]
+        enable = true
+        name = "View the app"
+        url = "https://example.com"
+
+[[params.experience.items]]
+    job = "Intern	- Strategy and Innovation Division "
+    company = "CSAA Insurance Group, a AAA Insurer"
+    companyUrl = "https://careers-calstate.aaa.com/innovation"
+    date = "May 2022 - August 2022"
+    content = """• Developed UBI App and Heuristic Evaluation to Save est. $642k per year from a reduction in Crash Rate
+• Modeled 13 emerging trends and 12 potential market opportunities and their value proposition in a mobility
+• Constructed Business Development Briefings to Partner with top 10 Leading Mobility Companies
+• Conducted quantitative and qualitative analysis and presented findings to Chief of Strategy & Innovation
+"""
+
+
+
+
+[[params.experience.items]]
+    job = "Intern - Innovation and Entrepreneurship Division"
+    company = "Indiana Economic Development Corporation"
+    companyUrl = "https://www.iedc.in.gov/"
+    date = "December 2020 - August 2021"
+    content = """•  Analyzed financials of 360 small businesses to see if they are eligible for Indiana's(covid-19) restart grant
+•  Founded a Pitchbook analyst team of 6 to build out the IEDC's research capabilities
+•  Led a $1.5M grant writing and Idea development for a state-level Venture Capital Fellowship Program
+•  Handled Indy Autonomous Challenge project management and raised $60K for sponsorship
+•  Designed market intelligence optimization for IEDC 4 country advisors"""
+
+    [params.experience.items.featuredLink]
+        enable = true
+        name = "View my report"
+        url = "https://example.com"
+
+[[params.experience.items]]
+    job = "Investment Banking Intern"
+    company = "GT Securities"
+    companyUrl = "https://clevercart.app"
+    date = "August 2020 - June 202"
+    content = """•  Directed data mining and appointments with principals             
+•  Developed 3 Due Diligence Packages                   
+•  Directed 7 fund managers on how to fundraise or build a board
+"""
+
+
+
+[[params.experience.items]]
+    job = "Founder"
+    company = "William Roberson LLC"
+
+    date = "August 2017 - February 2020"
+    content = """• Initiated two eCommerce stores with a $1,000 marketing budget
+• Preformed websites design, business relations with shipping agents, tax filing, and Facebook marketing
+• Liquidated because of China's shutdown during the pandemic
+"""
+
+
+
+[params.projects]
+  enable = true
+  title = "Projects"
+
+  [[params.projects.items]]
+    title = "BananaTalk"
+    content = "Chrome Extension that uses AI to read pdfs and allows you to ask pdfs questions"
+    image = "/images/banana.png"
+     [[params.projects.items.links]]
+      
+        icon = "fab fa-github"
+        url = "https://clevercartapp.wixsite.com/my-site/copy-of-home"
+        
+
+
+
+
+[params.education]
+    enable = true
+    # title = "Custom Name"
+    index = false
+
+    
+
+    [[params.education.items]]
+    title = "Bachelor of Science in Corporate Innovation and Finance"
+    date = "2021 - 2025"
+    GPA = "3.6 out of 4.0"
+     content = """
+•  Organizations: Quantum Computing Club &  Shoemaker Innovation Center                                 
+•  Leadership: Treasurer at Quantum Computing Club, Vice-Chair of Model UN
+    """
+    [params.education.items.school]
+      name = "Indiana University Bloomington"
+      url = "https://www.indiana.edu/"
+    
+    
+   
+    [params.education.items.featuredLink]
+      enable = true
+      name = "My academic record"
+      url = "https://example.com"
+
+    [[params.education.items]]
+    title = "High School"
+     date = "2017 - 2021"
+     GPA = "4.1 out of 4.0"
+    [params.education.items.school]
+      name = "Westfield Highschool"
+      url = "https://whs.wws.k12.in.us/"
+  
+
+
+[params.achievements]
+  enable = true
+  title = "Achievements"   
+    [[params.achievements.items]]
+   title = "3rd Place iQuHACK 2022 (MIT's quantum Hackathon )"
+        content = "Applied an optimized QAOA for solving the traveling salesman problem for search and rescue with a mobile app and quantum circuits"
+        url = "https://www.iquise.mit.edu/iQuHACK/2023-01-27"
+          [[params.achievements.items]]
+      title = "Shoebox Scholarship "
+        content = "1/30 teams to receive a scholarship for creating diverse teams through the utilization of IU’s resources "
+      [[params.achievements.items]]
+      title = "Connect Challenge Winner"
+        content = "Pitched our high school guidance counselor SaaS company aimed at their burnout. Competed in a startup competition that had over 50 applicants. Won first place for our adherence to college of arts and sciences ethical guidelines."
+
+
+     
+
+[params.contact]
+  enable = true
+  title = "Contact Me"
+  content = """If you have any questions or would like to work together on a project, feel free to get in touch with me."""
+  email = "miwiro@gmail.com"
+
+
+
+[params.footer.socialNetworks]
+github = "https://github.com/micah-roberson"
+linkedin = "https://www.linkedin.com/in/micah-roberson"
+
+
+[params.background]
+enable = true

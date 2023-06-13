@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://micah-roberson.github.io/Portfolio/"
 languageCode = "en-us"
 title = "Micah Website"
 theme = "hugo-profile"
